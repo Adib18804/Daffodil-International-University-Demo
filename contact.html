@@ -5,15 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daffodil International University Demo</title>
+    
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="style.css" />
+    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"/>
+    
+    <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>   
-    <body>
+  </head>
+  
+  <body>
+    <!-- Header Section -->
     <section class="sub-header">
       <nav>
-        <a href="index.html"><img src="images/diu logo.png" alt="" /></a>
+        <!-- University Logo -->
+        <a href="index.html"><img src="images/diu logo.png" alt="DIU Logo" /></a>
+        
+        <!-- Navigation Menu -->
         <div class="nav-links" id="navLinks">
           <i class="fa-solid fa fa-xmark" onclick="hideMenu()"></i>
           <ul>
@@ -24,67 +36,62 @@
             <li><a href="contact.html">CONTACT</a></li>
           </ul>
         </div>
+        
+        <!-- Mobile Menu Icon -->
         <i class="fa-solid fa fa-bars" onclick="showMenu()"></i>
       </nav>
+      
       <h1>Contact Us</h1>
     </section>
 
-
-
-    <!--------contact us--------->
-    <section class="location">
-        <section class="location">
-            <iframe src="https://www.google.com/maps/place/%E0%A6%A1%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AB%E0%A7%8B%E0%A6%A1%E0%A6%BF%E0%A6%B2+%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A6%A8%E0%A6%8D%E0%A6%AF%E0%A6%BE%E0%A6%B6%E0%A6%A8%E0%A6%BE%E0%A6%B2+%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B8%E0%A6%BF%E0%A6%9F%E0%A6%BF/@23.8769335,90.3184627,480m/data=!3m1!1e3!4m14!1m7!3m6!1s0x3755b8ada2664e21:0x3c872fd17bc11ddb!2z4Kah4KeN4Kav4Ka-4Kar4KeL4Kah4Ka_4KayIOCmh-CmqOCnjeCmn-CmvuCmsOCmqOCnjeCmr-CmvuCmtuCmqOCmvuCmsiDgpofgpongpqjgpr_gpq3gpr7gprDgp43gprjgpr_gpp_gpr8!8m2!3d23.8768956!4d90.3201592!16s%2Fm%2F027pprm!3m5!1s0x3755b8ada2664e21:0x3c872fd17bc11ddb!8m2!3d23.8768956!4d90.3201592!16s%2Fm%2F027pprm?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </section>
-          
-    </section>
-
+    <!-- Contact Information Section -->
     <section class="contact-us">
       <div class="row">
+        <!-- Contact Details -->
         <div class="contact-col">
           <div>
             <i class="fa-solid fa-house"></i>
             <span>
-            <h5>Daffodil International University br </h5>
-            <h5>Daffodil Smart City (DSC),</h5>
-            <p>Birulia, Savar, Dhaka-1216</p>
-          </span>
+              <h5>Daffodil International University</h5>
+              <h5>Daffodil Smart City (DSC),</h5>
+              <p>Birulia, Savar, Dhaka-1216</p>
+            </span>
           </div>
           <div>
             <i class="fa-solid fa-phone"></i>
             <span>
-            <h5>09617901212</h5>
-            <p>Saturday to Thursday, 10AM to 6PM</p>
-          </span>
+              <h5>09617901212</h5>
+              <p>Saturday to Thursday, 10AM to 6PM</p>
+            </span>
           </div>
           <div>
             <i class="fa-solid fa-envelope"></i>
             <span>
-            <h5>admission@daffodilvarsity.edu.bd</h5>
-            <p>Email us </p>
-          </span>
+              <h5>admission@daffodilvarsity.edu.bd</h5>
+              <p>Email us for inquiries</p>
+            </span>
           </div>
         </div>
+        
+        <!-- Contact Form -->
         <div class="contact-col">
-          <form action="form-handler.php" method = "post">
+          <form action="form-handler.php" method="post">
             <input type="text" name="name" placeholder="Enter Your Name" required>
             <input type="email" name="email" placeholder="Enter Email" required>
             <input type="text" name="subject" placeholder="Enter Your Subject" required>
             <textarea rows="8" name="message" placeholder="Message" required></textarea>
             <button type="submit" class="hero-btn red-btn">Send Message</button>
-            
           </form>
         </div>
       </div>
     </section>
     
-    
-    <!--------- footer --------->
-
+    <!-- Footer Section -->
     <section class="footer">
         <h4>About Us</h4>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur error asperiores vero vel incidunt sit!</p>
         
+        <!-- Social Media Links -->
         <div class="icons">
           <a href="https://www.facebook.com/daffodilvarsity.edu.bd" target="blank">
             <i class="fa-brands fa-facebook"></i>
@@ -97,9 +104,7 @@
           </a>
         </div>
       
-        <p>Made <i class="fa-solid fa-heart"></i> Mohammad Adib Abtahi</p>
+        <p>Made with <i class="fa-solid fa-heart"></i> by Mohammad Adib Abtahi</p>
       </section>
-      
-
   </body>
 </html>
